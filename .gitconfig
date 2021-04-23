@@ -1,0 +1,6 @@
+[user]
+        name = Giampaolo Cimino
+        email = g****
+
+[alias]
+logp = log --all --graph --pretty=format:'%C(auto)%h%C(auto)%d %s %C(dim white)(%aN, %ar)'
