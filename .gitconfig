@@ -1,6 +1,9 @@
 [user]
         name = Giampaolo Cimino
-        email = g****
+        email = giampaolo.cimino@example.com
 
 [alias]
-logp = log --all --graph --pretty=format:'%C(auto)%h%C(auto)%d %s %C(dim white)(%aN, %ar)'
+	logp = log --all --graph --pretty=format:'%C(auto)%h%C(auto)%d %s %C(dim white)(%aN, %ar)'
+
+[credential]
+        helper = cache --timeout=86400

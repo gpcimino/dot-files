@@ -1,0 +1,10 @@
+Delete remote branch:		git push <remote_name> --delete <branch_name>
+Change of staged files:		git diff --staged
+Changes in non-staged files:	git diff
+Add file to last commit:	git add <file> && git commit --amend --no-edit
+Change last commit message:	git commit --amend
+Cache password:			git config credential.helper 'cache --timeout=86400'
+Commit skipping commit hooks	git commit --no-verify -m "..."
+Unstage file			git reset HEAD <file>
+Diff of last commit 		git diff HEAD^ HEAD
+File changed in last commit     git diff --name-only HEAD^ HEAD

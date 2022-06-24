@@ -1,0 +1,8 @@
+hlp			Show this message
+Ctrl+x , Ctrl+e		Edit the current command in your $EDITOR.
+cal 			Show calendar
+!!			last command
+!#			last command params
+bc			calc
+history -a		Save history to .bash_history
+
