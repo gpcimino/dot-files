@@ -8,3 +8,5 @@ Commit skipping commit hooks	git commit --no-verify -m "..."
 Unstage file			git reset HEAD <file>
 Diff of last commit 		git diff HEAD^ HEAD
 File changed in last commit     git diff --name-only HEAD^ HEAD
+File changes in given commit	git diff-tree --no-commit-id --name-only -r <sha>
+Abort merge/pull with conflicts git merge --abort

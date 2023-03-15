@@ -1,6 +1,6 @@
 # History
 export HISTCONTROL=erasedups
-export HISTSIZE=10000
+export HISTSIZE=1000000
 shopt -s histappend
 export HISTTIMEFORMAT="%d/%m/%y %T "
 
@@ -35,7 +35,7 @@ export PATH=$HOME/bin:$PATH
 alias hlp='cat ~/dot-files/help.txt'
 alias ghlp='cat ~/dot-files/githelp.txt'
 alias phlp='cat ~/dot-files/pycharm-help'
-
+alias uhlp='cat ~/dot-files/uhelp.txt'
 #Python
 export PYTHON3=/usr/bin/python3.8
 

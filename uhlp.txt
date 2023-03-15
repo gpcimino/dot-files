@@ -1,0 +1,1 @@
+Total size of files in tree:		{ find ~/mnt/isilon/minex18_cruise_data/  -type f -name "*.sas" -printf "%s+"; echo 0; } | bc
